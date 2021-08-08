@@ -174,10 +174,61 @@ p {
     flex-wrap: wrap;
     align-items: center;
     float: left;
+    position: relative;
+}
+
+.run-buddy {
+    position: absolute;
+    bottom: -10%;
+    right: 65%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.first-challenge {
+    position: absolute;
+    bottom: -45%;
+    right: 52%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.websites {
+    position: absolute;
+    bottom: -75%;
+    right: 55%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.football {
+    position: absolute;
+    bottom: -105%;
+    right: 55%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.coding {
+    position: absolute;
+    bottom: -138%;
+    right: 53%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .row {
-    width: 25%;
+    max-width: 25%;
     height: 25%;
     margin-right: auto;
     margin-left: auto;
@@ -197,6 +248,57 @@ p {
 .footer p {
     font-size: 16px;
     font: bold;
+}
+@media screen and (max-width: 1300px) {
+    .run-buddy {
+        position: absolute;
+        bottom: -10%;
+        right: 63%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .first-challenge {
+        position: absolute;
+        bottom: -35%;
+        right: 50%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 12px;
+        }
+        .websites {
+            position: absolute;
+            bottom: -55%;
+            right: 52%;
+            background-color: black;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 12px;
+        }
+        .football {
+            position: absolute;
+            bottom: -76%;
+            right: 52%;
+            background-color: black;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 12px;
+        }
+        .coding {
+            position: absolute;
+            bottom: -97%;
+            right: 50%;
+            background-color: black;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 12px;
+        }
 }
 @media screen and (max-width: 980px) {
     header {
@@ -231,6 +333,58 @@ p {
     .header {
         position: relative;
     }
+    .run-buddy {
+        position: absolute;
+        bottom: 58%;
+        right: 55%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .my-work {
+        position: relative;
+    }
+    .first-challenge {
+    position: absolute;
+    bottom: 42%;
+    right: 45%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    }
+    .websites {
+        position: absolute;
+        bottom: 30%;
+        right: 50%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 12px;
+    }
+    .football {
+        position: absolute;
+        bottom: 17%;
+        right: 50%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 12px;
+    }
+    .coding {
+        position: absolute;
+        bottom: 3%;
+        right: 50%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 768px) {
     section {
@@ -248,9 +402,109 @@ p {
     .get-into-contact nav ul li {
         width: 100%;
     }
+    .run-buddy {
+        position: absolute;
+        bottom: 50%;
+        right: 55%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 13px;
+    }
+    .first-challenge {
+        position: absolute;
+        bottom: 37%;
+        right: 43%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 10px;
+    }
+    .websites {
+        position: absolute;
+        bottom: 27%;
+        right: 47%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 10px;
+    }
+    .football {
+        position: absolute;
+        bottom: 15%;
+        right: 47%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 10px;
+    }
+    .coding {
+        position: absolute;
+        bottom: 2%;
+        right: 45%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 575px) {
     .my-work img {
         flex-wrap: wrap;
+    }
+    .run-buddy {
+        position: absolute;
+        bottom: 45%;
+        right: 50%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 10px;
+    }
+    .first-challenge {
+        position: absolute;
+        bottom: 32%;
+        right: 40%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 8px;
+    }
+    .websites {
+        position: absolute;
+        bottom: 22%;
+        right: 45%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 8px;
+    }
+    .football {
+        position: absolute;
+        bottom: 12%;
+        right: 45%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 8px;
+    }
+    .coding {
+        position: absolute;
+        bottom: 2%;
+        right: 42%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 8px;
     }
 }
